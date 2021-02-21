@@ -1,0 +1,75 @@
+{
+  "API" : {
+    "ERROR" : {
+      "CHECK_EXIST" : "Une erreur est survenue.",
+      "USER_EXIST" : "Un utilisateur avec ce login existe déjà.",
+      "MAIL_EXIST" : "Un utilisateur avec ce mail existe déjà.",
+      "ADD_USER" : "Une erreur est survenue lors de l'inscription.",
+      "FIND_ALL" : "Une erreur est survenue lors de la récupération des utilisateurs.",
+      "FIND_ONE" : "Une erreur est survenue lors de la récupération du l'utilisateur",
+      "NEED_ELEMENT" : "Des éléments obligatoires sont manquants.",
+      "PASSWORD_CONFIRM" : "Les deux mots de passe ne correspondent pas.",
+      "USERS_NOT_FOUND" : "Ancun utilisateurs trouvés.",
+      "USER_NOT_FOUND" : "L'utilisateur n'a pas été trouvé.",
+      "EMPTY_UPDATE" : "Problème lors de la mise à jour de l'utilisateur.",
+      "MODIFY_USER" : "Une erreur est survenue lors de la mise à jour de l'utilisateur.",
+      "UPDATE" : "Une erreur est survenue lors de la mise à jour de l'utilisateur.",
+      "DELETE" : "Une erreur est survenue lors de la suppression de l'utilisateur",
+      "DELETE_USER" : "Une erreur est survenue lors de la suppression de l'utilisateur",
+      "CONNEXION_FAILED" : "Une erreur est survenue lors de l'authentification.",
+      "CONNEXION_USER_FAILED" : "Login ou mot de passe incorrect.",
+      "CONNEXION_PASSWORD_FAILED" : "Login ou mot de passe incorrect.",
+      "OLD_PASSWORD" : "Données manquante pour changer vôtre mot de passe.",
+      "OLD_PASSWORD_VERIFY" : "Votre ancien mot de passe est incorrect."
+    },
+    "SUCCESS" : {
+      "MODIFY_USER" : "Utilisateur modifié avec succès.",
+      "DELETE_USER" : "Utilisateur supprimé avec succès.",
+      "ADD_USER" : "Utilisateur créé avec succès.",
+      "PASSWORD_CHANGE" : "Mot de passe modifié avec succès."
+    },
+    "TOKEN" : {
+      "NO_TOKEN" : "Aucun token fourni.",
+      "UNAUTHORIZED" : "Accès non autorisé."
+    },
+    "ADMIN" : {
+      "NOT_ADMIN" : "Vous devez être administrateur pour effectuer ceci."
+    },
+    "ANALYSIS" : {
+      "NEED_ELEMENT" : "Des éléments obligatoires sont manquants.",
+      "SET_FAILED" : "Une erreur est survenue lors de l'ajout de l'analyse.",
+      "SET_SUCCESS" : "Ajout de l'analyse réussie.",
+      "USER_NOT_FOUND" : "Utilisateur inexistant.",
+      "USER_FOUND_FAILED" : "Problème avec la recherche de l'utilisateur.",
+      "ADD_ANALYSIS_FAILED" : "Une erreur est survenue lors de l'ajout de l'analyse.",
+      "ANALYSIS_NOT_FOUND" : "Aucune analyse ne corresponds à votre recherche.",
+      "GET_ANALYSIS_FAILED" : "Une erreur est survenue lors de la recherche de l'analyse.",
+      "ALL_ANALYSIS_NOT_FOUND" : "Aucune analyse n'est enregistrée...",
+      "GET_ALL_ANALYSIS_FAILED" : "Une erreur est survenue lors de la recherche de vos analyses."
+    },
+    "PROTOCOL" : {
+      "PROTOCOL_NOT_FOUND" : "Protocole de l'utilisateur introuvable.",
+      "ERROR_PROTOCOL" : "Une erreur est survenue lors du chargement du protocole.",
+      "EMPTY_UPDATE" : "Une erreur est survenue, aucune infos transférées pour l'update du protocole.",
+      "UPDATE_FAIL" : "Une erreur est survenue lors de la mise à jour du protocole.",
+      "MODIFY_PROTOCOL" : "Modification réussie avec succès.",
+      "MODIFY_PROTOCOL_FAIL" : "Modification ratée."
+    },
+    "PARAMETER" : {
+      "PARAMETER_NOT_FOUND" : "Paramètres de l'utilisateur introuvable.",
+      "ERROR_PARAMETER" : "Une erreur est survenue lors du chargement des paramètres.",
+      "EMPTY_PARAMETER" : "Une erreur est survenue, aucune infos transférées pour l'update des paramètres.",
+      "UPDATE_FAIL" : "Une erreur est survenue lors de la mise à jour du paramètres.",
+      "MODIFY_PARAMETER" : "Modification réussie avec succès.",
+      "MODIFY_PARAMETER_FAIL" : "Modification ratée."
+    },
+    "PARAMETER_ACCOUNT" : {
+      "PARAMETER_ACCOUNT_NOT_FOUND" : "Paramètres du compte de l'utilisateur introuvable.",
+      "ERROR_PARAMETER_ACCOUNT" : "Une erreur est survenue lors du chargement des paramètres du compte.",
+      "EMPTY_PARAMETER_ACCOUNT" : "Une erreur est survenue, aucune infos transférées pour l'update des paramètres du compte.",
+      "UPDATE_FAIL" : "Une erreur est survenue lors de la mise à jour du paramètres du compte.",
+      "MODIFY_PARAMETER_ACCOUNT" : "Modification réussie avec succès.",
+      "MODIFY_PARAMETER_ACCOUNT_FAIL" : "Modification ratée."
+    }
+  }
+}
