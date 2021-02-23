@@ -8,7 +8,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3201;
 
-var allowlist = ['http://localhost:4200', 'https://web.postman.co'];
+var allowlist = ['http://localhost:4200', 'https://web.postman.co', 'http://localhost'];
 var corsOptionsDelegate = function (req, callback) {
   var corsOptions;
   if (allowlist.indexOf(req.header('Origin')) !== -1) {
