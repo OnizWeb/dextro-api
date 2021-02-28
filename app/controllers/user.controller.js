@@ -39,7 +39,7 @@ exports.setUser = (req, res) => {
     birthday: body.birthday ? body.birthday : null,
     login: body.login,
     password: hashedPassword,
-    role: 'user',
+    role: ['user'],
     active: true,
     myAnalysis: []
   });

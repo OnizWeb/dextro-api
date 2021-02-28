@@ -57,7 +57,11 @@ isAdmin = (req, res, next) => {
       return;
     }
 
-    if (user.role === 'admin') {
+    const admin = user.role.filter(r => {
+      return r === 'admin';
+    });
+
+    if (admin && admin.length > 0) {
       next();
       return;
     }

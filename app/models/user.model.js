@@ -7,7 +7,7 @@ module.exports = mongoose => {
       birthday: Date,
       login: String,
       password: String,
-      role: String,
+      role: Array,
       active: Boolean,
       myAnalysis: Array
     },
